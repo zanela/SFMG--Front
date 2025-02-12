@@ -1,0 +1,13 @@
+{
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {},
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7"
+  }
+}
