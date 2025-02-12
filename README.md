@@ -16,8 +16,7 @@ Instale o Node.js: Node.js Official Website.
 
 Instale as dependências do projeto:
 
-bash
-Copy
+
 npm install @playwright/test
 npm install typescript --save-dev
 npm install -g yarn 
@@ -27,8 +26,7 @@ npm install --save--dev cross-env
 - Execução dos Testes
 Para executar os testes, utilize o seguinte comando:
 
-bash
-Copy
+
 npx playwright test
 npx playwright test --ui
 npx cross-env ENVIRONMENT=DEV yarn playwright test --ui
@@ -180,12 +178,10 @@ Configurar relatórios HTML para visualizar os resultados dos testes de forma ma
 
 Exemplo de Execução
 Comando para Executar Testes
-bash
-Copy
+
 npx playwright test
 Comando para Gerar Relatório HTML
-bash
-Copy
+
 npx playwright show-report
-                                        Conclusão
+Conclusão
 - Este projeto é um exemplo de como automatizar testes de UI usando Playwright e TypeScript. A estrutura atual cobre cenários básicos de compra, remoção de itens do carrinho e logout. Com as melhorias sugeridas, o projeto pode se tornar mais robusto e escalável.
